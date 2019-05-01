@@ -1,0 +1,261 @@
+﻿/*
+    CSS Style Sheet for Assignment 13: The Complete PetAPuppy System
+    Author: Jeffrey Trotz
+    Date: 12/13/2018
+    Class: CS 356
+*/
+
+#divAccoountDetails 
+{
+    top: 100%;
+}
+
+/*
+    Styles for the div that contains
+    the form for adding a ticket
+*/
+#divAddTicket
+{
+    top: 100%;
+}
+
+/*
+    Styles for the div that contains all
+    page contents to make the page responsive
+*/
+#divContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    Styles for the create account box
+*/
+#divCreateAccount
+{
+    top: 100%;
+}
+
+/*
+    Styles for the error image
+*/
+#divErrorImage
+{
+    top: 12.5%;
+}
+
+/*
+    Styles for the footer at the bottom of the page
+*/
+#divFooter
+{
+    top: 0%;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+/*
+    Styles for the header at the top of the page
+*/
+#divHeader
+{
+    top: 3%;
+    right: 100%;
+    font-size: 3vw;
+}
+
+/*
+    Styles for the login box
+*/
+#divLogin
+{
+    top: 100%;
+}
+
+/*
+    Styles for the logo div in the header to position it
+*/
+#divLogo 
+{
+    top: 0%;
+    right: 0%;
+    z-index: +1;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*
+    Styles for the div that holds an image of
+    Santa that's animated across the screen if
+    it's the holidays.
+*/
+#divSanta 
+{
+    top: 30%;
+    right: 100%;
+    z-index: +1;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*
+    Styles for the site navigation div
+*/
+#divSiteNav 
+{
+    top: 13%;
+    left: 100%;
+    height: 80%;
+    width: auto;
+}
+
+/*
+    Styles for the ticket grid div
+*/
+#divTicketGrid
+{
+    top: 0%;
+    left: 14%;
+    max-width: 83%;
+}
+
+/*
+    Styles for the div that contains
+    the form for updating a ticket
+*/
+#divUpdateTicket 
+{
+    top: 100%;
+}
+
+/*
+    Styles for buttons
+*/
+.button 
+{
+    color: #ffffff;
+    border-radius: 10px;
+    height: auto;
+    white-space: normal;
+    max-width: 200px;
+}
+
+/*
+    Styles to center images (mostly the error
+    image on the error page)
+*/
+.center
+{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Common styles shared by all divs
+*/
+.div
+{
+    height: auto;
+    width: auto;
+    position: absolute;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS';
+    color: #763b3b;
+}
+
+/*
+    Stykes for the error div on the account info page
+*/
+.divAccountInfoError
+{
+    top: 70%;
+}
+
+/*
+    Styles for the error div on the add ticket page
+*/
+.divAddTicketError
+{
+    top: 75%;
+}
+
+/*
+    Styles for the error div on the create account page
+*/
+.divCreateAccountError
+{
+    top: 63%;
+    max-width: 14%;
+}
+
+/*
+    Styles for the error div on the login page
+*/
+.divLoginError
+{
+    top: 70%;
+    max-width: 14%;
+}
+
+/*
+    Styles for the error div on the update ticket page
+*/
+.divUpdateTicketError
+{
+    top: 65%;
+}
+
+/*
+    Styles for the welcome div on the login page shown
+    if the user created a new account or adds a ticket
+*/
+.divWelcomeNewUser
+{
+    top: 17%;
+    max-width: 19%;
+}
+
+/*
+    Styles for error messages to make the
+    font red
+*/
+.errorMessage
+{
+    color: #ff0000;
+    text-align: center;
+}
+
+/*
+    Styles for the header/footer at the top/bottom
+    of the page
+*/
+.headerFooter
+{
+    width: 98%;
+    text-align: center;
+}
+
+/*
+    More styles for the logo in the
+    header to make the image round
+*/
+.imgLogo
+{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+    Styles for text boxes
+*/
+.textBox
+{
+    border-radius: 10px;
+    padding: 3px;
+}

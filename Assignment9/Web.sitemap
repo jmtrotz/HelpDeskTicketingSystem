@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Navigation">
+    <siteMapNode title="Home">
+      <siteMapNode title="Main Page" url="~/aspxPages/Main.aspx" />
+    </siteMapNode>
+    <siteMapNode title="Tickets">
+      <siteMapNode title="Add Ticket" url="~/aspxPages/AddTicket.aspx" />
+    </siteMapNode>
+    <siteMapNode title="My Account">
+      <siteMapNode title="Account Details" url="~/aspxPages/AccountDetails.aspx" />
+    </siteMapNode>
+    <siteMapNode title="Logout" url="~/aspxPages/Login.aspx" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,17 @@
+﻿<%--
+    Holiday skin for Assignment 9: Themes
+    Author: Jeffrey Trotz
+    Date: 11/9/2018
+    Class: CS 356
+
+    This theme changes the logo in the header to the 
+    normal logo when the date is not between October 
+    31 and December 30. It also makes the buttons and 
+    page title brown to match the font in the footer. 
+    There is a style sheet to go along with this theme 
+    that changes the background to the normal image.
+--%>
+<asp:ImageButton runat="server" SkinID="logo" ImageUrl="~/images/logo.jpg" />
+<asp:Button runat="server" SkinID="reportIssueButton" style="background-color: #763b3b;"/>
+<asp:Button runat="server" SkinID="submitButton" style="background-color: #763b3b;" />
+<asp:Button runat="server" SkinID="resetButton" style="background-color: #763b3b;" />

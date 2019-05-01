@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment9.masterPages.MasterPage" %>
+<!--
+    Master Page for Assignment 12: Building the PetAPuppy System
+    Author: Jeffrey Trotz
+    Date: 11/30/2018
+    Class: CS 356
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head runat="server">
+        <title>MasterPage</title>
+        <!--
+            Markup to make the page "responsive"
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--
+            Import JavaScript and CSS files
+        -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../scripts/JavaScript.js"></script>
+        <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form id="form" runat="server">
+            <div id="divContainer">
+                <!--
+                    Logo in the header at the top of the page
+                -->
+                <div id="divLogo" class="div">
+                    <asp:ImageButton ID="imgLogo" runat="server" SkinID="logo" PostBackUrl="~/aspxPages/Main.aspx" CssClass="imgLogo" alt="Pet A Puppy Logo" />
+                </div>
+                <!--
+                    Header bar/title at the top of the page
+                -->
+                <div id="divHeader" class="div headerFooter">
+                    <asp:Label ID="lblTitleP" runat="server" SkinID="oddNumberLetter" Text="P"></asp:Label>
+                    <asp:Label ID="lblTitleE" runat="server" SkinID="evenNumberLetter" Text="e"></asp:Label>
+                    <asp:Label ID="lblTitleT" runat="server" SkinID="oddNumberLetter" Text="t"></asp:Label>
+                    &ensp;
+                    <asp:Label ID="lblTitleA" runat="server" SkinID="evenNumberLetter" Text="A"></asp:Label>
+                    &ensp;
+                    <asp:Label ID="lblTitleP2" runat="server" SkinID="oddNumberLetter" Text="P"></asp:Label>
+                    <asp:Label ID="lblTitleU" runat="server" SkinID="evenNumberLetter" Text="u"></asp:Label>
+                    <asp:Label ID="lblTitleP3" runat="server" SkinID="oddNumberLetter" Text="p"></asp:Label>
+                    <asp:Label ID="lblTitleP4" runat="server" SkinID="evenNumberLetter" Text="p"></asp:Label>
+                    <asp:Label ID="lblTitleY" runat="server" SkinID="oddNumberLetter" Text="y"></asp:Label>
+                </div>
+                <!--
+                    Content place holder for page contents
+                -->
+                <asp:ContentPlaceHolder ID="cphPageContent" runat="server"></asp:ContentPlaceHolder>
+                <!--
+                    Footer at the bottom of the page.
+                -->
+                <div id="divFooter" class="div headerFooter">     
+                    <asp:Label ID="lblFooter" runat="server" Text="Copyright 2018 Pet A Puppy. All rights reserved"></asp:Label>
+                </div>
+            </div>            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+﻿<%--
+    Holiday skin for Assignment 9: Themes
+    Author: Jeffrey Trotz
+    Date: 11/9/2018
+    Class: CS 356
+
+    This theme changes the logo in the header to a holiday 
+    themed one, makes buttons red and green, and makes the 
+    letters for the page title red and green. There is a 
+    style sheet to go along with this theme that changes 
+    the background to a holiday themed image.
+--%>
+<asp:Label runat="server" SkinID="oddNumberLetter" ForeColor="red" />
+<asp:Label runat="server" SkinID="evenNumberLetter" ForeColor="green" />
+<asp:ImageButton runat="server" SkinID="logo" ImageUrl="~/images/holidaysLogo.jpg" />
+<asp:Button runat="server" SkinID="reportIssueButton" style="background-color: #763b3b;"/>
+<asp:Button runat="server" SkinID="submitButton" style="background-color: #ff0000;"/>
+<asp:Button runat="server" SkinID="resetButton" style="background-color: #008000;" />

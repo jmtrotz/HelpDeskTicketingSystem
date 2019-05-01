@@ -1,0 +1,17 @@
+﻿/*
+    CSS Style Sheet for the holiday
+    theme for Assignment 9: Themes
+    Author: Jeffrey Trotz
+    Date: 11/9/2018
+    Class: CS 356
+*/
+
+/*
+    Sets the background to the holiday image
+*/
+body 
+{
+    background-image: url("../../images/holidaysBackground.jpg");
+    clip: auto;
+    overflow-x: hidden;
+}
